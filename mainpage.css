@@ -1,3 +1,5 @@
+@media only screen and (max-width : 600px) {
+
 * {
   margin: 0;
 }
@@ -144,3 +146,4 @@ input[type=text] {
   transition: 0.5s all ease-in-out;
 }
 
+}
