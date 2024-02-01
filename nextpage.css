@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
 }
@@ -112,4 +113,29 @@ iframe {
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (max-width : 600px) {
+  .navbar{
+    display: none;
+  }
+  iframe{
+    width: 440px !important;
+    position: static;
+    margin: 0;
+    padding-left: 0;
+    margin-bottom: 100px;
+  }
+  .featured-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .featured-desc{
+    width: 380px;
+  }
+  .content-container{
+    margin-top: 0;
+  }
+
 }
