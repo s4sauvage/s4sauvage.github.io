@@ -120,16 +120,17 @@ a {
     display: none;
   }
   iframe{
-    width: 440px !important;
+    width: 398px !important;
     position: static;
     margin: 0;
     padding-left: 0;
     margin-bottom: 100px;
+    border: 1px solid yellow;
   }
   .featured-content{
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 1px;
   }
   .featured-desc{
     width: 380px;
